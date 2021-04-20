@@ -3,5 +3,10 @@
 instacone backend
 
 ##USER :
-- [ ] Create Account
-- [ ]
+- [v] Create Account
+- [v] see profile
+- [v] login
+- [ ] Edit profile
+- [ ] Follow USER
+- [ ] Unfollow USER
+- [ ] Change Avatar (Image Upload)
