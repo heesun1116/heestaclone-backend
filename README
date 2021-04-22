@@ -6,7 +6,12 @@ instacone backend
 - [v] Create Account
 - [v] see profile
 - [v] login
-- [ ] Edit profile
-- [ ] Follow USER
+- [v] Edit profile
+- [v] Follow USER
 - [ ] Unfollow USER
 - [ ] Change Avatar (Image Upload)
+- [ ] Search Users
+- [ ] See Follower
+- [ ] see Following
+
+## PHotos
