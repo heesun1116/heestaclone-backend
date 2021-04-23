@@ -8,10 +8,13 @@ instacone backend
 - [v] login
 - [v] Edit profile
 - [v] Follow USER
-- [ ] Unfollow USER
-- [ ] Change Avatar (Image Upload)
+- [v] Unfollow USER
+- [v] Change Avatar (Image Upload)
+- [v] computed Fields
+- [v] See Follower
+- [v] see Following
+- [ ] isMe
+- [ ] isFollowing
 - [ ] Search Users
-- [ ] See Follower
-- [ ] see Following
 
 ## PHotos
