@@ -13,8 +13,19 @@ instacone backend
 - [v] computed Fields
 - [v] See Follower
 - [v] see Following
-- [ ] isMe
-- [ ] isFollowing
-- [ ] Search Users
+- [v] isMe
+- [v] isFollowing
+- [v] Search Users
 
-## PHotos
+## Photos
+- [v] Upload PHotos
+- [v] See Photos
+- [v] See Hashtags
+- [ ] Edit PHotos
+- [ ] Like/ Unlike Photos
+- [ ] See Photos Likes
+- [ ] See Feed
+
+## Comments
+
+
