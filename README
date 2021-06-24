@@ -21,11 +21,16 @@ instacone backend
 - [v] Upload PHotos
 - [v] See Photos
 - [v] See Hashtags
-- [ ] Edit PHotos
-- [ ] Like/ Unlike Photos
-- [ ] See Photos Likes
-- [ ] See Feed
+- [v] Edit PHotos
+- [v] Like/ Unlike Photos
+- [v] See Photos Likes
+- [v] See Feed
 
 ## Comments
 
+## DMS
+ - [v] Create Room
+ - [v] Get Room
+ - [v] Send Message
+ - [v] Realtime Messages
 

@@ -15,12 +15,12 @@ export default {
       if (!comment) {
         return {
           ok: false,
-          error: "Commnet not found.",
+          error: "Comment not found.",
         };
       } else if (comment.userId !== loggedInUser.id) {
         return {
           ok: false,
-          error: "NOT authorized",
+          error: "Not authorized.",
         };
       } else {
         await client.commnet.delete({

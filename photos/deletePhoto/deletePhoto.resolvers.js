@@ -5,7 +5,9 @@ export default {
   Mutation: {
     deletePhoto: protectedResolver(async (_, { id }, { loggedInUser }) => {
       const photo = await client.photo.findUnique({
-        where: { id },
+        where: {
+          id,
+        },
         select: {
           userId: true,
         },
@@ -13,14 +15,24 @@ export default {
       if (!photo) {
         return {
           ok: false,
-          error: "Photo not found",
+          error: "Photo not found.",
         };
       } else if (photo.userId !== loggedInUser.id) {
         return {
           ok: false,
-          error: "NOT authorized",
+          error: "Not authorized.",
         };
       } else {
+        await client.like.deleteMany({
+          where: {
+            photoId: id,
+          },
+        });
+        await client.commnet.deleteMany({
+          where: {
+            photoId: id,
+          },
+        });
         await client.photo.delete({
           where: {
             id,

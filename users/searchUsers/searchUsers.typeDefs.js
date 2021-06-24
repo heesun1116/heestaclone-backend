@@ -1,7 +1,7 @@
-import { gql } from "apollo-server-core";
+import { gql } from "apollo-server";
 
 export default gql`
   type Query {
-    searchUsers(keyword: String!, lastId: Int): [User]
+    searchUsers(keyword: String!): [User]
   }
 `;

@@ -4,12 +4,12 @@ import { protectedResolver } from "../../users/users.utils";
 export default {
   Mutation: {
     toggleLike: protectedResolver(async (_, { id }, { loggedInUser }) => {
-      const existingPhoto = await client.photo.findUnique({
+      const photo = await client.photo.findUnique({
         where: {
           id,
         },
       });
-      if (!existingPhoto) {
+      if (!photo) {
         return {
           ok: false,
           error: "Photo not found",
@@ -24,7 +24,6 @@ export default {
       const like = await client.like.findUnique({
         where: likeWhere,
       });
-
       if (like) {
         await client.like.delete({
           where: likeWhere,
@@ -39,7 +38,7 @@ export default {
             },
             photo: {
               connect: {
-                id: existingPhoto.id,
+                id: photo.id,
               },
             },
           },

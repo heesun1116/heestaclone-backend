@@ -22,7 +22,7 @@ export default {
         if (!oldPhoto) {
           return {
             ok: false,
-            error: "Photo not found",
+            error: "Photo not found.",
           };
         }
         await client.photo.update({
