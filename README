@@ -37,38 +37,5 @@ Through the  gradation of color, I tried to express the diversity
 ![ezgif com-gif-maker (2)](https://user-images.githubusercontent.com/70732062/129497053-b6b75639-f3de-4749-b69f-9f7fd83e8686.gif)
 ![ezgif com-gif-maker (3)](https://user-images.githubusercontent.com/70732062/129497101-2373a028-e78b-4074-ac6f-63e13ed3239a.gif)
 
-instacone backend
 
-##USER :
-- [v] Create Account
-- [v] see profile
-- [v] login
-- [v] Edit profile
-- [v] Follow USER
-- [v] Unfollow USER
-- [v] Change Avatar (Image Upload)
-- [v] computed Fields
-- [v] See Follower
-- [v] see Following
-- [v] isMe
-- [v] isFollowing
-- [v] Search Users
 
-## Photos
-- [v] Upload PHotos
-- [v] See Photos
-- [v] See Hashtags
-- [v] Edit PHotos
-- [v] Like/ Unlike Photos
-- [v] See Photos Likes
-- [v] See Feed
-
-## Comments
-
-## DMS
- - [v] Create Room
- - [v] Get Room
- - [v] Send Message
- - [v] Realtime Messages
- ##
- - [v] heroku
